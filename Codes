@@ -1,0 +1,59 @@
+public void setCellData(String Result,  int RowNum, int ColNum) throws Exception	{
+
+			try{
+
+  			Row row = sheet.getRow(RowNum);
+
+			Cell cell= row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
+
+			if (cell == null) {
+
+				cell = row.createCell(ColNum);
+
+				cell.setCellValue(Result);
+				
+
+				} else {
+
+					cell.setCellValue(Result);
+				
+					System.out.println("Test");
+					System.out.println(cell.getStringCellValue());
+
+				}
+
+		
+			
+			 fileOut = new FileOutputStream(path);
+
+			 sample.write(fileOut);
+
+			    fileOut.close();
+			
+			}
+	       catch(Exception e){
+
+				throw (e);
+
+		}
+	}	public String getCellData( int RowNum, int ColNum) throws Exception	{
+
+		try{
+
+			Row row = sheet.getRow(RowNum);
+
+		Cell cell= row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
+
+		if (cell == null) {
+			System.out.println("No such cell exist");
+
+			return null;
+
+			} else {
+				System.out.println(cell.getStringCellValue().trim());
+
+				return cell.getStringCellValue().trim();
+
+			}
+
+  

@@ -1,0 +1,26 @@
+Selneium WebDriver:
+
+What is the use of xpath ?
+What are different types of locators ?
+What is the alternate way to click on login button?
+How do you launch IE/chrome browser?
+How do you simulate browser back and forward ?
+How do you get the current page URL ?
+What is the difference between ‘/’ and ‘//’ ?
+What is the difference between findElement and findElements?
+How do you achieve synchronization in WebDriver ?
+Write the code for Reading and Writing to Excel through Selenium ?
+How to get typed text from a textbox ?
+How do you clear the contents of a textbox in selenium ?
+What are the prerequisites to run selenium webdriver?
+How to invoke an application in webdriver ?
+Which is the package which is to be imported while working with WebDriver ?
+How to get the title of the page ?
+How to change the URL on a webpage using selenium web driver ?
+Is WebElement an interface or a class ?
+FirefoxDriver is class or an interface and from where is it inherited ?
+What is the difference b/w close() and quit()?
+How to type text in a new line inside a text area ?
+How to check all checkboxes in a page ?
+ How do you identify the Xpath of element on your browser ?
+Which one is better xpath or CSS ?
